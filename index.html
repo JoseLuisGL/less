@@ -1,11 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario de Acceso</title>
+    <link rel="stylesheet" href="less.css">
 </head>
 <body>
-    <h1>LESS</h1>
+
+    <div class="form-container">
+        <h2>Formulario de acceso</h2>
+        <form>
+            <label for="email">Correo electrónico</label>
+            <input type="text">
+
+            <label for="password">Contraseña</label>
+            <input type="password">
+
+            <ul>
+                <div class="roles">
+                    <li>
+                        <label>
+                            <input type="radio">
+                            <span class="admin">Administrador</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio">
+                            <span class="manager">Gerente</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio">
+                            <span class="owner">Propietario</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio">
+                            <span class="sales-agent">Agente de ventas</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio">
+                            <span class="prospect">Prospecto</span>
+                        </label>
+                    </li>
+                </div>
+            </ul>
+
+            <button type="submit" class="btn">Acceder</button>
+        </form>
+
+        <div class="forgot-password">
+            <a href="">¿Olvidó su contraseña?</a>
+        </div>
+    </div>
+
 </body>
 </html>

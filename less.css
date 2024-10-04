@@ -1,0 +1,132 @@
+.roles-color .admin {
+  background-color: #0000FF;
+}
+.roles-color .manager {
+  background-color: #008080;
+}
+.roles-color .owner {
+  background-color: #00FFFF;
+}
+.roles-color .sales-agent {
+  background-color: #FFA500;
+}
+.roles-color .prospect {
+  background-color: #FF0000;
+}
+body {
+  background-color: #D9A7E1;
+}
+.form-container {
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.form-container h2 {
+  color: #A4EE55;
+  text-align: center;
+}
+.form-container label {
+  color: #A4EE55;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+.form-container input[type="text"],
+.form-container input[type="password"] {
+  width: 90%;
+  padding: 8px 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+.roles {
+  margin-bottom: 20px;
+}
+.roles label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.roles label input[type="radio"] {
+  margin-right: 10px;
+}
+.roles label span {
+  font-size: 1em;
+  color: #000;
+  font-weight: bold;
+  display: block;
+  margin-left: 10px;
+  width: 85%;
+  height: 20px;
+  background-color: #fff;
+}
+.roles label span .admin {
+  background-color: #0000FF;
+}
+.roles label span .manager {
+  background-color: #008080;
+}
+.roles label span .owner {
+  background-color: #00FFFF;
+}
+.roles label span .sales-agent {
+  background-color: #FFA500;
+}
+.roles label span .prospect {
+  background-color: #FF0000;
+}
+.roles .admin {
+  background-color: #0000FF;
+}
+.roles .manager {
+  background-color: #008080;
+}
+.roles .owner {
+  background-color: #00FFFF;
+}
+.roles .sales-agent {
+  background-color: #FFA500;
+}
+.roles .prospect {
+  background-color: #FF0000;
+}
+.btn {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.forgot-password {
+  text-align: left;
+  margin-top: 20px;
+}
+.forgot-password a {
+  color: #9900cc;
+  font-size: 0.9em;
+}
+.cuadrado {
+  width: 85%;
+  height: 20px;
+  background-color: #fff;
+}
+.cuadrado .admin {
+  background-color: #0000FF;
+}
+.cuadrado .manager {
+  background-color: #008080;
+}
+.cuadrado .owner {
+  background-color: #00FFFF;
+}
+.cuadrado .sales-agent {
+  background-color: #FFA500;
+}
+.cuadrado .prospect {
+  background-color: #FF0000;
+}
